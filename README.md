@@ -1,11 +1,46 @@
-# Live-Crypto-Dashboard-local-
+# Live Cryptocurrency Dashboard (v1.0 - Local SQLite Version)
 
-Basic cryptocurrency ETL pipeline for two currencies:
+Latest Release: [Version 1.1 - Cloud Enhancement](https://github.com/healyyyyyy/Live-Crypto-Dash)
 
-1. Bitcoin
-2. Ethereum
+This is a personal project I took on to help me understand and pivot towards data engineering, from a data analysis background.
 
-Summary:
-1. Extracting data from CoinGecko's API
-2. Cleaning the data: formatting timestamps & prices for consistency
-3. Displaying live updates via a Streamlit Dashboard
+Learning objectives:
+
+- Writing scripts
+- Understanding ETL v/s ELT
+- Deploying a dashboard
+- Interact with cloubd based tools
+- Hands-on approach to data freshness, duplication, and structure
+
+## Overview
+
+The project is a basic cryptocurrency ETL (Extract, Transform, Load) pipeline focused on three popular cryptocurrencies:
+
+- Bitcoin
+- Ethereum
+- Tron
+
+---
+
+## Features
+
+- **Data Extraction:** Fetches live cryptocurrency data directly from the CoinGecko API.  
+- **Data Cleaning:** Formats timestamps and prices to ensure consistency and usability.  
+- **Live Dashboard:** Displays real-time updates through a Streamlit dashboard.
+
+---
+
+## Usage
+
+1. Run the ETL pipeline to extract, clean and store the data locally.  
+2. Launch the Streamlit app to view live cryptocurrency prices and trends.
+
+---
+
+## Technologies
+
+- Python  
+- CoinGecko API
+- Storage: Local SQLite database
+- Visualization: Streamlit dashboard (run locally)
+
